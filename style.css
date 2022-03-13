@@ -1,0 +1,128 @@
+*{
+    padding:0%;
+    margin:0;
+    text-decoration: none;
+}
+
+.Head{
+    width: 100%;
+    background-color: brown;
+    padding: 30px ;
+}
+
+.Head-content{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.Head .Head-content{
+    align-items: left;
+    justify-content: space-between;
+}
+
+.Head .List li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Head .List li a{
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.Head .List li a:hover{
+    color:black;
+}
+
+#body{
+    background-image: url('image.PNG');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}  
+
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 20px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 20%;
+    background-color: #00ffd5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #6f756f;
+}
+  
+div {
+    border-radius: 5px;
+    border-color: #000000;
+    background-color: #8883b6;
+    padding: 20px;
+}
+
+input[type = number], input[type = date],  input[type = tel],  input[type = Email]{
+    width: 23%;
+    padding: 12px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Heading, .Gender{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, .under, h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#centered{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#body2{
+    background-color:burlywood;
+}
+

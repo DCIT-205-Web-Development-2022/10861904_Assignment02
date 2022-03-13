@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+    <link rel="icon" type="image/x-icon" href="image.PNG">   <!--favicon-->
+    </head>
+    <body style = "background-color :burlywood" >
+        <ins><h3 style = "text-align: center;", class = "under">Visitor's Forms</h3>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Personal Information</h3>
+                </legend>
+                    <div>
+                        <label for = "First_Name", class="Heading"><strong>First Name:</strong></label><br>
+                        <input id = "First_Name", type = "text", name=" First_Name" ><br><br>
+
+                        <label for = "Last_Name", class="Heading"><strong>Last Name:</strong></label><br>
+                        <input id = "Last_Name", type = "text", name = "Last_Name">  
+                    </div>
+
+                    <div>
+                        <label for = "Age", class="Heading"><strong>Age:</strong></label><br>
+                        <input id = "Age", type = "text", name = "Age"  ><br><br>
+                    </div>
+
+                    <div>
+                        <label for = "DOB", class="Heading"><strong>Date Of Birth:</strong></label><br>
+                        <input id = "DOB", type = "date", name = "DOB" ><br><br>
+                    </div>
+
+                    <div>
+                        
+                        <h4 class="Heading"><strong>Contacts:</strong></h4><br>
+                        <label for = "Phone"></label>
+                        <input id = "Phone", type="tel" placeholder = "Telephone Number"><br>
+                        <label for = "Email"></label><br>
+                        <input id = "Email", type ="email" placeholder = "Email"><br><br>
+                        
+                    </div>  
+
+                    <div>
+                    
+                        <h4 class = "Heading"><strong>Gender:</strong></h4><br>
+                        <input id = "Male", type = "radio", value = "Male", name = "Gender">
+                        <label for = "Male", class="Gender">Male</label><br>
+                        <input id = "Female", type = "radio", value = "Female", name = "Gender">
+                        <label for = "Female", class="Gender">Female</label><br>
+                        <input id = "Other", type = "radio", value = "Other", name = "Gender">
+                        <label for = "Other" class="Gender">Other</label><br>
+                        
+                    </div>
+
+                    <div>
+                        <label for = "IDs" , class="Heading"><strong>Select ID:<strong></label><br>
+                        <select id = "IDs", name = "IDs" style="width:20%">
+                            <option value = "National_ID">National ID</option>
+                            <option value = "NHIS">NHIS</option>
+                            <option value = "Voters_ID">Voters' ID</option>
+                            <option value = "Driver_License">Drivers' License</option>
+                            <option value = "SSNIT">SSNIT</option>
+                        </select>
+                        <br><br>
+                    </div>
+
+                    <div>
+                        <label for = "ID_no", class="Heading"><strong>ID Number:</strong></label><br>
+                        <input id = "ID_no", name = "ID_no", type = "number">
+                        <br><br>
+                    </div>
+                    <div>
+                        <input value="SUBMIT" type = "submit">
+                        <br>
+                    </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
